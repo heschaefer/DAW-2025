@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores, Propiedades e Valores</title>
+    <style>
+        p{
+            color: rgb(0, 55, 255);
+        }
+        .destaque {
+            color: rgb(0, 255, 17);
+        }
+        #titulo {
+            color: aquamarine;
+        }
+        input[type="text"]{
+            border: 3px solid blueviolet;
+        }
+        input[type="password"]{
+            border:3px solid rgb(132, 75, 75)
+        }
+        div p{
+            color: rgb(255, 0, 43);
+        }
+    </style>
+</head>
+<body>
+        <h3>Tipos de seletores</h3>
+        <h4>Seletor por tag</h4>
+        <p>resultado do seletor por tag</p>
+
+        <h4 class="destaque">Seletor por classe</h4>
+        <p class="destaque">Resultado de seletor por classe</p>
+
+        <h4>Seletor por ID:</h4>
+        <p id="titulo">Resultado do seletor por ID</p>
+
+        <h4>Seletor por ATRIBUTO:</h4>
+        <input type="text" name="" id="" placeholder="Digite aqui...">
+        <input type="password" name="" id="" placeholder="Digite aqui...">
+
+        <div>
+            <h4> Selepor por Pseudo classe</h4>
+            <p>Resultado por seletor por PSEUDO-CLASSE</p>
+        </div>
+</body>
+</html>
