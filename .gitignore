@@ -1,0 +1,58 @@
+the-moviebox/.DS_Store
+.DS_Store
+
+# Arquivos do sistema Windows
+*.lnk
+*.url
+*.exe
+*.DAT
+*.TM.blf
+*.TMContainer*
+*.LOG*
+*.ini
+desktop.ini
+NTUSER.*
+ntuser.*
+
+# Pastas do sistema
+AppData/
+.platformio/
+.cursor/
+.ssh/
+.vscode/
+.wdm/
+miniconda3/
+PyCharmMiscProject/
+PycharmProjects/
+WebstormProjects/
+Cisco*/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+Videos/
+"Saved Games/"
+Searches/
+
+# Arquivos temporários e cache
+*.rec
+*.cache
+.bash_history
+
+# Arquivos do Office
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Outros
+*.iml
+
+# Ignorar tudo fora da pasta do projeto
+../*
+!../DAW-2025/
