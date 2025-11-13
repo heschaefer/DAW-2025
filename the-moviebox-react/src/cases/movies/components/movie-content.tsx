@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { MovieService, type MovieDTO } from "../services/movie.service"
 import { MovieCard } from "./movie-card";
 
